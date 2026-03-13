@@ -10,6 +10,8 @@ type
   TfrmPrincipal = class(TForm)
     btnExemplo01: TButton;
     btnAtividade01: TButton;
+    btnExemplo02: TButton;
+    btnAtividade02: TButton;
     procedure btnExemplo01Click(Sender: TObject);
     procedure btnAtividade01Click(Sender: TObject);
   private
