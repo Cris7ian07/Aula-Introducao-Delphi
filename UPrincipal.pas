@@ -15,6 +15,7 @@ type
     btnAtividade27: TButton;
     procedure btnExemplo01Click(Sender: TObject);
     procedure btnAtividade01Click(Sender: TObject);
+    procedure btnAtividade27Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -35,6 +36,11 @@ uses UExemplo01, UAtividade01, UAtividade27;
 procedure TfrmPrincipal.btnAtividade01Click(Sender: TObject);
 begin
   frmAtividade01.ShowModal;
+end;
+
+procedure TfrmPrincipal.btnAtividade27Click(Sender: TObject);
+begin
+   frmAtividade27.ShowModal
 end;
 
 procedure TfrmPrincipal.btnExemplo01Click(Sender: TObject);
