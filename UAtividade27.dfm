@@ -167,6 +167,7 @@ object frmAtividade27: TfrmAtividade27
     Font.Style = []
     ParentFont = False
     TabOrder = 5
+    OnClick = btnmediaClick
   end
   object edtmedia: TEdit
     Left = 416
@@ -185,7 +186,7 @@ object frmAtividade27: TfrmAtividade27
     Left = 8
     Top = 312
     Width = 265
-    Height = 65
+    Height = 73
     TabOrder = 7
   end
 end

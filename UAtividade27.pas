@@ -22,6 +22,7 @@ type
     btnmedia: TButton;
     edtmedia: TEdit;
     edttexto: TEdit;
+    procedure btnmediaClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -34,5 +35,17 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TfrmAtividade27.btnmediaClick(Sender: TObject);
+var
+n1, n2, n3, n4, media:Double;
+begin
+    n1:= StrToFloat(edttexto1.text);
+    n2:= StrToFloat(edttexto2.text);
+    n3:= StrToFloat(edttexto3.text);
+    n4:= StrToFloat(edttexto4.text);
+    media:= (n1+n2+n3+n4)/4;
+    edtmedia.Text :=  FloatToStr(media);
+end;
 
 end.
