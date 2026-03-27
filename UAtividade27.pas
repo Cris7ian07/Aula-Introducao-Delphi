@@ -21,7 +21,7 @@ type
     edtnome: TEdit;
     btnmedia: TButton;
     edtmedia: TEdit;
-    edttexto: TEdit;
+    edtmensagem: TEdit;
     procedure btnmediaClick(Sender: TObject);
   private
     { Private declarations }
@@ -39,6 +39,7 @@ implementation
 procedure TfrmAtividade27.btnmediaClick(Sender: TObject);
 var
 n1, n2, n3, n4, media:Double;
+//nome, mensagem : String;
 begin
     n1:= StrToFloat(edttexto1.text);
     n2:= StrToFloat(edttexto2.text);
@@ -46,6 +47,8 @@ begin
     n4:= StrToFloat(edttexto4.text);
     media:= (n1+n2+n3+n4)/4;
     edtmedia.Text :=  FloatToStr(media);
+   // mensagem := 'Aluno(a): ' + slineBreak + 'media: ' + FloatToStr(media)
+    //edtmensagem.caption
 end;
 
 end.

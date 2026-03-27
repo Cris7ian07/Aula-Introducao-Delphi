@@ -182,11 +182,11 @@ object frmAtividade27: TfrmAtividade27
     ParentFont = False
     TabOrder = 6
   end
-  object edttexto: TEdit
+  object edtmensagem: TEdit
     Left = 8
     Top = 312
     Width = 265
-    Height = 73
+    Height = 97
     TabOrder = 7
   end
 end
