@@ -13,9 +13,11 @@ type
     btnExemplo02: TButton;
     btnAtividade02: TButton;
     btnAtividade27: TButton;
+    btnAtividade28: TButton;
     procedure btnExemplo01Click(Sender: TObject);
     procedure btnAtividade01Click(Sender: TObject);
     procedure btnAtividade27Click(Sender: TObject);
+    procedure btnAtividade28Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -29,7 +31,7 @@ implementation
 
 {$R *.dfm}
 
-uses UExemplo01, UAtividade01, UAtividade27;
+uses UExemplo01, UAtividade01, UAtividade27, UAtividade28;
 
 
 
@@ -42,6 +44,11 @@ procedure TfrmPrincipal.btnAtividade27Click(Sender: TObject);
 begin
    frmAtividade27.ShowModal
 
+end;
+
+procedure TfrmPrincipal.btnAtividade28Click(Sender: TObject);
+begin
+      frmAtividade28.ShowModal
 end;
 
 procedure TfrmPrincipal.btnExemplo01Click(Sender: TObject);
