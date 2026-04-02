@@ -14,21 +14,21 @@ object frmAtividade28: TfrmAtividade28
   object lbllogin: TLabel
     Left = 120
     Top = 16
-    Width = 121
-    Height = 49
+    Width = 35
+    Height = 15
     Caption = 'LOGIN'
   end
   object lblnome: TLabel
     Left = 40
     Top = 74
-    Width = 66
+    Width = 43
     Height = 15
     Caption = 'Usuario:'
   end
   object lblsenha: TLabel
     Left = 40
     Top = 103
-    Width = 57
+    Width = 35
     Height = 15
     Caption = 'Senha:'
   end

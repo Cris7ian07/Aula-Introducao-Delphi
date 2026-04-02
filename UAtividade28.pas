@@ -31,13 +31,13 @@ implementation
 procedure TfrmAtividade28.btnacessarClick(Sender: TObject);
 begin
 var
- senha, usuario : string;
+ usuario, senha : string;
 begin
    usuario := edtusuario.text;
    senha := edtsenha.text;
-   if (usuario = 'user01 and senha = 147') then
+   if (usuario = 'user01') and (senha = '147') then
    begin
-   ShowMessage ('Acesso Liberado');
+       ShowMessage ('Acesso Liberado');
    end
    else
    begin
