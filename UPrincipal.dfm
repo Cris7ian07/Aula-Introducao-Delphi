@@ -15,16 +15,16 @@ object frmPrincipal: TfrmPrincipal
   object btnExemplo01: TButton
     Left = 24
     Top = 24
-    Width = 150
+    Width = 105
     Height = 35
     Caption = 'Exemplo 01'
     TabOrder = 0
     OnClick = btnExemplo01Click
   end
   object btnAtividade01: TButton
-    Left = 256
+    Left = 135
     Top = 25
-    Width = 150
+    Width = 113
     Height = 33
     Caption = 'Atividade 01'
     TabOrder = 1
@@ -32,36 +32,45 @@ object frmPrincipal: TfrmPrincipal
   end
   object btnExemplo02: TButton
     Left = 24
-    Top = 104
-    Width = 150
+    Top = 65
+    Width = 105
     Height = 33
     Caption = 'Exemplo 02'
     TabOrder = 2
   end
   object btnAtividade02: TButton
-    Left = 256
-    Top = 104
-    Width = 150
+    Left = 144
+    Top = 64
+    Width = 113
     Height = 33
     Caption = 'Atividade 02'
     TabOrder = 3
   end
   object btnAtividade27: TButton
-    Left = 264
-    Top = 160
-    Width = 142
-    Height = 41
+    Left = 24
+    Top = 103
+    Width = 114
+    Height = 34
     Caption = 'Atividade 27'
     TabOrder = 4
     OnClick = btnAtividade27Click
   end
   object btnAtividade28: TButton
-    Left = 24
-    Top = 167
-    Width = 150
+    Left = 144
+    Top = 103
+    Width = 121
     Height = 34
     Caption = 'Atividade 28'
     TabOrder = 5
     OnClick = btnAtividade28Click
+  end
+  object btnMensagem: TButton
+    Left = 24
+    Top = 152
+    Width = 129
+    Height = 33
+    Caption = 'Mensagem 1'
+    TabOrder = 6
+    OnClick = btnMensagemClick
   end
 end
