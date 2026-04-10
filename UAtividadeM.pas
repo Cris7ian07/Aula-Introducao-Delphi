@@ -10,8 +10,8 @@ type
   TfrmMensagem = class(TForm)
     btnOk: TButton;
     btnCancel: TButton;
-    lbltexto: TLabel;
-    procedure lbltextoClick(Sender: TObject);
+
+    procedure btnOkClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -25,14 +25,38 @@ implementation
 
 {$R *.dfm}
 
-procedure TfrmMensagem.lbltextoClick(Sender: TObject);
+procedure TfrmMensagem.btnOkClick(Sender: TObject);
+begin
 var
    mensagem : integer;
 begin
-     Mensagem :=MessageBox(Application.Handle,
-     'Selecione uma opção para exibir seu valor', 'Saída',1);
+     mensagem := MessageBox(Application.Handle,
+     'Selecione uma opção para exibir seu valor', 'Saída',3);
+      if (mensagem = idyes) then
+      begin
+        MessageBox(Application.Handle,
+     'retorno = idyes', 'Saída',0)
+     end
+      else
+      if (mensagem = idno) then
+      begin
+        MessageBox(Application.Handle,
+      'retorno = idno', 'Saída',0)
+       end
+      else
+      if (mensagem = idcancel) then
+      begin
+        MessageBox(Application.Handle,
+      'retorno = idcancel', 'Saída',0)
+      end;
+      end;
 
-     ShowMessage('Retorno =' + IntToStr(Mensagem))
 end;
+
+
+
+
+
+
 
 end.

@@ -11,28 +11,21 @@ object frmMensagem: TfrmMensagem
   Font.Name = 'Segoe UI'
   Font.Style = []
   TextHeight = 15
-  object lbltexto: TLabel
-    Left = 72
-    Top = 48
-    Width = 211
-    Height = 25
-    Caption = 'Mensagem de informa'#231#227'o'
-    OnClick = lbltextoClick
-  end
   object btnOk: TButton
     Left = 72
-    Top = 96
-    Width = 75
-    Height = 25
-    Caption = 'OK'
+    Top = 56
+    Width = 105
+    Height = 65
+    Caption = 'messageBox'
     TabOrder = 0
+    OnClick = btnOkClick
   end
   object btnCancel: TButton
     Left = 208
-    Top = 96
-    Width = 75
-    Height = 25
-    Caption = 'Cancel'
+    Top = 56
+    Width = 97
+    Height = 65
+    Caption = 'inputbox'
     TabOrder = 1
   end
 end
