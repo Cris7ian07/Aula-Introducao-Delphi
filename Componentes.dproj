@@ -152,7 +152,7 @@
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="U43Salario.pas">
-            <Form>frm43</Form>
+            <Form>frm43Salario</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Base">

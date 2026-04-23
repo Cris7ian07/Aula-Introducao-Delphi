@@ -73,4 +73,12 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 6
     OnClick = btnMensagemClick
   end
+  object frm43Salario: TButton
+    Left = 159
+    Top = 152
+    Width = 122
+    Height = 33
+    Caption = 'Atividade 43'
+    TabOrder = 7
+  end
 end

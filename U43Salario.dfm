@@ -1,4 +1,4 @@
-object frm43: Tfrm43
+object frm43Salario: Tfrm43Salario
   Left = 0
   Top = 0
   Caption = '43 Salario'

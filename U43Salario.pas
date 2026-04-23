@@ -7,7 +7,7 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
 
 type
-  Tfrm43 = class(TForm)
+  Tfrm43Salario = class(TForm)
     lblNome: TLabel;
     edtNome: TEdit;
     lblValorHora: TLabel;
@@ -31,39 +31,39 @@ type
   end;
 
 var
-  frm43: Tfrm43;
+  frm43Salario: Tfrm43Salario;
 
 implementation
 
 {$R *.dfm}
 
-procedure Tfrm43.lblFuncClick(Sender: TObject);
+procedure Tfrm43Salario.lblFuncClick(Sender: TObject);
 var
   valorHora, horas, salBruto, ir, inss, sindicato, fgts, totalDesc, liquido: Double;
   percIR: Integer;
 begin
-  // 1. Entrada de dados
+
   valorHora := StrToFloatDef(edtValorHora.Text, 0);
   horas := StrToFloatDef(edtHorasMes.Text, 0);
   salBruto := valorHora * horas;
 
-  // 2. Lógica do IR (conforme regra padrão desse exercício)
+
   if salBruto <= 900 then percIR := 0
   else if salBruto <= 1500 then percIR := 5
   else if salBruto <= 2500 then percIR := 10
   else percIR := 20;
 
-  // 3. Cálculos de taxas (baseado na sua imagem)
-  ir        := salBruto * (percIR / 100);
-  inss      := salBruto * 0.11; // 11% conforme o PDF
-  sindicato := salBruto * 0.03; // 3% conforme o PDF
-  fgts      := salBruto * 0.11; // 11% conforme o PDF
 
-  // 4. Totais (Lembrando: FGTS não é descontado do salário)
+  ir        := salBruto * (percIR / 100);
+  inss      := salBruto * 0.11;
+  sindicato := salBruto * 0.03;
+  fgts      := salBruto * 0.11;
+
+
   totalDesc := ir + inss + sindicato;
   liquido   := salBruto - totalDesc;
 
-  // 5. Exibição dos resultados (Labels)
+
   lblSalarioBruto.Caption := 'Salário Bruto: R$ ' + FormatFloat('#,##0.00', salBruto);
   lblIR.Caption           := '(-) IR (' + IntToStr(percIR) + '%): R$ ' + FormatFloat('#,##0.00', ir);
   lblINSS.Caption         := '(-) INSS (11%): R$ ' + FormatFloat('#,##0.00', inss);
