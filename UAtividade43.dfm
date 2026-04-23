@@ -2,7 +2,7 @@ object Atividade43: TAtividade43
   Left = 0
   Top = 0
   Caption = 'frmAtividade43'
-  ClientHeight = 441
+  ClientHeight = 510
   ClientWidth = 624
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -111,7 +111,7 @@ object Atividade43: TAtividade43
     Left = 76
     Top = 47
     Width = 161
-    Height = 37
+    Height = 53
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -32
