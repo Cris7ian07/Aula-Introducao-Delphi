@@ -80,5 +80,15 @@ object frmPrincipal: TfrmPrincipal
     Height = 33
     Caption = 'Atividade 43'
     TabOrder = 7
+    OnClick = frm43SalarioClick
+  end
+  object btnAtividade47: TButton
+    Left = 360
+    Top = 32
+    Width = 121
+    Height = 25
+    Caption = 'Atividade 47'
+    TabOrder = 8
+    OnClick = btnAtividade47Click
   end
 end
