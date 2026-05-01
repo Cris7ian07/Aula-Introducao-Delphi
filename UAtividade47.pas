@@ -42,11 +42,11 @@ begin
    impares := '';
 
    edt[1] := StrToInt(edt1.Text);
-   edt[2] := StrToInt(edt1.Text);
-   edt[3] := StrToInt(edt1.Text);
-   edt[4] := StrToInt(edt1.Text);
-   edt[5] := StrToInt(edt1.Text);
-   edt[6] := StrToInt(edt1.Text);
+   edt[2] := StrToInt(edt2.Text);
+   edt[3] := StrToInt(edt3.Text);
+   edt[4] := StrToInt(edt4.Text);
+   edt[5] := StrToInt(edt5.Text);
+   edt[6] := StrToInt(edt6.Text);
    for i := 1 to 6 do
   begin
 
@@ -55,6 +55,7 @@ begin
     else
       impares := impares + IntToStr(edt[i]) + ' ';
   end;
+
    lblresultado.Caption := 'Pares: ' + pares + ' | Ímpares: ' + impares;
 end;
 

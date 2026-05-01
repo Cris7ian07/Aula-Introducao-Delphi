@@ -17,6 +17,7 @@ type
     btnMensagem: TButton;
     frm43Salario: TButton;
     btnAtividade47: TButton;
+    btnAtividade48: TButton;
     procedure btnExemplo01Click(Sender: TObject);
     procedure btnAtividade01Click(Sender: TObject);
     procedure btnAtividade27Click(Sender: TObject);
@@ -24,6 +25,7 @@ type
     procedure btnMensagemClick(Sender: TObject);
     procedure frm43SalarioClick(Sender: TObject);
     procedure btnAtividade47Click(Sender: TObject);
+    procedure btnAtividade48Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -38,7 +40,7 @@ implementation
 {$R *.dfm}
 
 uses UExemplo01, UAtividade01, UAtividade27, UAtividade28, UAtividadeM,
-  UAtividade43, U43Salario, UAtividade47;
+  UAtividade43, U43Salario, UAtividade47, UAtividade48;
 
 
 
@@ -61,6 +63,11 @@ end;
 procedure TfrmPrincipal.btnAtividade47Click(Sender: TObject);
 begin
  frmAtividade47.ShowModal;
+end;
+
+procedure TfrmPrincipal.btnAtividade48Click(Sender: TObject);
+begin
+  frmAtividade48.ShowModal;
 end;
 
 procedure TfrmPrincipal.btnExemplo01Click(Sender: TObject);

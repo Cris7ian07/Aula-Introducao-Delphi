@@ -104,14 +104,14 @@ object Atividade43: TAtividade43
     Left = 74
     Top = 8
     Width = 161
-    Height = 25
+    Height = 33
     TabOrder = 0
   end
   object edtvalorhora: TEdit
-    Left = 76
+    Left = 79
     Top = 47
     Width = 161
-    Height = 25
+    Height = 37
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -32

@@ -10,7 +10,8 @@ uses
   UAtividadeM in 'UAtividadeM.pas' {frmMensagem},
   UAtividade43 in 'UAtividade43.pas' {Atividade43},
   U43Salario in 'U43Salario.pas' {frm43Salario},
-  UAtividade47 in 'UAtividade47.pas' {frmAtividade47};
+  UAtividade47 in 'UAtividade47.pas' {frmAtividade47},
+  UAtividade48 in 'UAtividade48.pas' {frmAtividade48};
 
 {$R *.res}
 
@@ -26,5 +27,6 @@ begin
   Application.CreateForm(TAtividade43, Atividade43);
   Application.CreateForm(Tfrm43Salario, frm43Salario);
   Application.CreateForm(TfrmAtividade47, frmAtividade47);
+  Application.CreateForm(TfrmAtividade48, frmAtividade48);
   Application.Run;
 end.
