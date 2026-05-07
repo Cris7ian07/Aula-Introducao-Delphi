@@ -25,29 +25,36 @@ implementation
 
 procedure TfrmAtividade48.btnclickClick(Sender: TObject);
 var
- numero : integer;
- soma :  integer;
- contador : integer;
- media :real;
+  num, soma, contador: Integer;
+  media: Real;
 begin
- soma := 0;
- contador := 0;
+  soma := 0;
+  contador := 0;
 
-  numero := StrToInt(InputBox('entrar','digite um numero(0 para sair):',''));
-   if (numero <> 0) then
-begin
-    soma := soma + numero;
-    contador :=contador + 1;
-     numero := StrToInt(InputBox('entrar','digite um numero(0 para sair):',''));
-end;
- if contador > 0 then
-  media := soma / contador
+
+  num := StrToInt(InputBox('Entrada', 'Digite um número (0 para sair):', '0'));
+
+
+  while num <> 0 do
+  begin
+    soma := soma + num;
+    contador := contador + 1;
+
+
+    num := StrToInt(InputBox('Entrada', 'Digite outro número (0 para sair):', '0'));
+  end;
+
+
+  if contador > 0 then
+    media := soma / contador
   else
-  media := 0;
+    media := 0;
 
-  ShowMessage('quantidade: ' +  IntToStr(contador));
-  ShowMessage('soma: ' +  IntToStr(soma));
-  ShowMessage('media: ' + FloatToStr(media));
+
+  ShowMessage(
+    'Quantidade de números: ' + IntToStr(contador) + #13#10 +
+    'Soma: ' + IntToStr(soma) + #13#10 +
+    'Média: ' + FloatToStr(media)
+  );
 end;
-
 end.
