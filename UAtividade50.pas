@@ -25,33 +25,33 @@ implementation
 
 procedure TfrmAtividade50.btnclickClick(Sender: TObject);
 var
-  num, i: Integer;
-  ehPrimo: Boolean;
+  numero, i: Integer;
+  Primo: Boolean;
 begin
 
-  num := StrToInt(InputBox('Entrada', 'Digite um número inteiro:', '0'));
+  numero := StrToInt(InputBox('Entrada', 'Digite um número inteiro:', '0'));
 
 
-  if num <= 1 then
+  if numero <= 1 then
   begin
     ShowMessage('Não é número primo.');
     Exit;
   end;
 
-  ehPrimo := True;
+  Primo := True;
 
 
-  for i := 2 to num - 1 do
+  for i := 2 to numero - 1 do
   begin
-    if (num mod i = 0) then
+    if (numero mod i = 0) then
     begin
-      ehPrimo := False;
+      Primo := False;
       Break;
     end;
   end;
 
 
-  if ehPrimo then
+  if Primo then
     ShowMessage('É número primo.')
   else
     ShowMessage('Não é número primo.');

@@ -14,9 +14,15 @@ object frmAtividade49: TfrmAtividade49
   object btnclick: TButton
     Left = 64
     Top = 32
-    Width = 75
+    Width = 105
     Height = 57
     Caption = 'Click'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -32
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 0
     OnClick = btnclickClick
   end
