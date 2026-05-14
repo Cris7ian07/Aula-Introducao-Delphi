@@ -26,7 +26,7 @@ object Atividade43: TAtividade43
   end
   object lblValorHora: TLabel
     Left = 8
-    Top = 47
+    Top = 63
     Width = 65
     Height = 25
     Caption = '$ Hora :'
@@ -39,79 +39,79 @@ object Atividade43: TAtividade43
   end
   object lblhorames: TLabel
     Left = 8
-    Top = 90
+    Top = 109
     Width = 89
     Height = 25
     Caption = 'Hora m'#234's :'
   end
   object lblFunc: TLabel
     Left = 8
-    Top = 184
+    Top = 200
     Width = 119
     Height = 25
     Caption = ' Funcion'#225'rio:  '
   end
   object lblSalarioBruto: TLabel
     Left = 8
-    Top = 223
+    Top = 239
     Width = 118
     Height = 25
     Caption = 'Sal'#225'rio Bruto: '
   end
   object lblIR: TLabel
     Left = 8
-    Top = 254
+    Top = 270
     Width = 40
     Height = 25
     Caption = '(-)IR:'
   end
   object lblINSS: TLabel
     Left = 8
-    Top = 285
+    Top = 301
     Width = 73
     Height = 25
     Caption = '(-) INSS: '
   end
   object lblSindicato: TLabel
     Left = 8
-    Top = 316
+    Top = 332
     Width = 107
     Height = 25
     Caption = '(-) Sindicato:'
   end
   object lblFGTS: TLabel
     Left = 8
-    Top = 347
+    Top = 363
     Width = 109
     Height = 25
     Caption = ' FGTS (11%): '
   end
   object lblTotalDesc: TLabel
     Left = 8
-    Top = 378
+    Top = 394
     Width = 162
     Height = 25
     Caption = 'Total de Descontos:'
   end
   object lblLiquido: TLabel
     Left = 8
-    Top = 409
+    Top = 425
     Width = 130
     Height = 25
     Caption = 'Sal'#225'rio L'#237'quido:'
   end
   object edtnome: TEdit
     Left = 74
-    Top = 8
+    Top = 16
     Width = 161
-    Height = 33
+    Height = 25
     TabOrder = 0
   end
   object edtvalorhora: TEdit
     Left = 79
-    Top = 47
+    Top = 63
     Width = 161
-    Height = 37
+    Height = 25
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -32
@@ -122,14 +122,14 @@ object Atividade43: TAtividade43
   end
   object edthoras: TEdit
     Left = 103
-    Top = 90
+    Top = 109
     Width = 121
-    Height = 33
+    Height = 30
     TabOrder = 2
   end
   object btncalcularsalario: TButton
     Left = 56
-    Top = 129
+    Top = 145
     Width = 241
     Height = 49
     Caption = 'Calcular Sal'#225'rio'

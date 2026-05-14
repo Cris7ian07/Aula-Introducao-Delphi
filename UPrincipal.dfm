@@ -2,8 +2,8 @@ object frmPrincipal: TfrmPrincipal
   Left = 0
   Top = 0
   Caption = 'Exemplo Componentes Aula Delphi'
-  ClientHeight = 306
-  ClientWidth = 397
+  ClientHeight = 289
+  ClientWidth = 391
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -39,21 +39,13 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 2
     OnClick = btnExemplo02Click
   end
-  object btnAtividade02: TButton
-    Left = 120
-    Top = 39
-    Width = 121
-    Height = 26
-    Caption = 'Atividade 02'
-    TabOrder = 3
-  end
   object btnAtividade27: TButton
     Left = 0
     Top = 75
-    Width = 114
+    Width = 122
     Height = 26
     Caption = 'Atividade 27'
-    TabOrder = 4
+    TabOrder = 3
     OnClick = btnAtividade27Click
   end
   object btnAtividade28: TButton
@@ -62,7 +54,7 @@ object frmPrincipal: TfrmPrincipal
     Width = 121
     Height = 26
     Caption = 'Atividade 28'
-    TabOrder = 5
+    TabOrder = 4
     OnClick = btnAtividade28Click
   end
   object btnMensagem: TButton
@@ -71,7 +63,7 @@ object frmPrincipal: TfrmPrincipal
     Width = 129
     Height = 24
     Caption = 'Mensagem 1'
-    TabOrder = 6
+    TabOrder = 5
     OnClick = btnMensagemClick
   end
   object frm43Salario: TButton
@@ -80,7 +72,7 @@ object frmPrincipal: TfrmPrincipal
     Width = 122
     Height = 24
     Caption = 'Atividade 43'
-    TabOrder = 7
+    TabOrder = 6
     OnClick = frm43SalarioClick
   end
   object btnAtividade47: TButton
@@ -89,7 +81,7 @@ object frmPrincipal: TfrmPrincipal
     Width = 121
     Height = 25
     Caption = 'Atividade 47'
-    TabOrder = 8
+    TabOrder = 7
     OnClick = btnAtividade47Click
   end
   object btnAtividade48: TButton
@@ -98,7 +90,7 @@ object frmPrincipal: TfrmPrincipal
     Width = 122
     Height = 24
     Caption = 'Atividade 48'
-    TabOrder = 9
+    TabOrder = 8
     OnClick = btnAtividade48Click
   end
   object btnAtividade49: TButton
@@ -107,7 +99,7 @@ object frmPrincipal: TfrmPrincipal
     Width = 122
     Height = 26
     Caption = 'Atividade 49'
-    TabOrder = 10
+    TabOrder = 9
     OnClick = btnAtividade49Click
   end
   object btnAtividade50: TButton
@@ -116,7 +108,7 @@ object frmPrincipal: TfrmPrincipal
     Width = 122
     Height = 26
     Caption = 'Atividade 50'
-    TabOrder = 11
+    TabOrder = 10
     OnClick = btnAtividade50Click
   end
   object btnAtividade51: TButton
@@ -125,16 +117,33 @@ object frmPrincipal: TfrmPrincipal
     Width = 122
     Height = 26
     Caption = 'Atividade 51'
-    TabOrder = 12
+    TabOrder = 11
     OnClick = btnAtividade51Click
   end
   object btnAtividade52: TButton
     Left = 128
     Top = 103
-    Width = 114
+    Width = 121
     Height = 26
     Caption = 'Atividade 52'
-    TabOrder = 13
+    TabOrder = 12
     OnClick = btnAtividade52Click
+  end
+  object btnAtividade02: TButton
+    Left = 120
+    Top = 39
+    Width = 121
+    Height = 26
+    Caption = 'Atividade 02'
+    TabOrder = 13
+  end
+  object btnAtividade26: TButton
+    Left = 247
+    Top = 38
+    Width = 136
+    Height = 25
+    Caption = 'Atividade 26'
+    TabOrder = 14
+    OnClick = btnAtividade26Click
   end
 end
