@@ -2,7 +2,7 @@ object frmAtividade27: TfrmAtividade27
   Left = 0
   Top = 0
   Caption = 'Atividade27'
-  ClientHeight = 441
+  ClientHeight = 327
   ClientWidth = 624
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -181,12 +181,5 @@ object frmAtividade27: TfrmAtividade27
     Font.Style = []
     ParentFont = False
     TabOrder = 6
-  end
-  object edtmensagem: TEdit
-    Left = 8
-    Top = 312
-    Width = 265
-    Height = 97
-    TabOrder = 7
   end
 end

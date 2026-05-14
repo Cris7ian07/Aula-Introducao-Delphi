@@ -21,7 +21,6 @@ type
     edtnome: TEdit;
     btnmedia: TButton;
     edtmedia: TEdit;
-    edtmensagem: TEdit;
     procedure btnmediaClick(Sender: TObject);
   private
     { Private declarations }
@@ -38,17 +37,25 @@ implementation
 
 procedure TfrmAtividade27.btnmediaClick(Sender: TObject);
 var
-n1, n2, n3, n4, media:Double;
-//nome, mensagem : String;
-begin
-    n1:= StrToFloat(edttexto1.text);
-    n2:= StrToFloat(edttexto2.text);
-    n3:= StrToFloat(edttexto3.text);
-    n4:= StrToFloat(edttexto4.text);
-    media:= (n1+n2+n3+n4)/4;
-    edtmedia.Text :=  FloatToStr(media);
-   // mensagem := 'Aluno(a): ' + slineBreak + 'media: ' + FloatToStr(media)
-    //edtmensagem.caption
-end;
 
+  n1, n2, n3, n4, media: Double;
+  mensagem: String;
+
+begin
+  n1 := StrToFloat(edttexto1.Text);
+  n2 := StrToFloat(edttexto2.Text);
+  n3 := StrToFloat(edttexto3.Text);
+  n4 := StrToFloat(edttexto4.Text);
+
+  media := (n1 + n2 + n3 + n4) / 4;
+
+  edtmedia.Text := FloatToStr(media);
+
+  if media >= 7 then
+    mensagem := 'Aluno aprovado! Média: ' + FloatToStr(media)
+  else
+    mensagem := 'Aluno reprovado! Média: ' + FloatToStr(media);
+
+  ShowMessage(mensagem);
+end;
 end.
