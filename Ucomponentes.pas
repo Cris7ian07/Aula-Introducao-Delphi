@@ -45,7 +45,7 @@ implementation
 procedure TfrmCadastro.btnCadastrarClick(Sender: TObject);
 var
   sexo, frutas : String;
-  registro : Integer;
+  registros : Integer;
 
 begin
 
