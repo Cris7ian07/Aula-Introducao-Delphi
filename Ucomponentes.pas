@@ -112,10 +112,10 @@ begin
     frutas := 'Nenhuma fruta selecionada';
 
 
-  registro := mmoRegistros.Lines.Count + 1;
+  registros := mmoRegistros.Lines.Count + 1;
 
 
-  mmoRegistros.Lines.Add('Registro nº ' + IntToStr(registro));
+  mmoRegistros.Lines.Add('Registro nº ' + IntToStr(registros));
   mmoRegistros.Lines.Add('Nome: ' + edtNome.Text);
   mmoRegistros.Lines.Add('Endereco: ' + edtEndereco.Text);
   mmoRegistros.Lines.Add('Sexo: ' + sexo);
