@@ -14,6 +14,7 @@ object frmAtv_54: TfrmAtv_54
   Font.Height = -10
   Font.Name = 'Tahoma'
   Font.Style = []
+  OnShow = FormShow
   TextHeight = 12
   object lblNome: TLabel
     Left = 6
@@ -180,6 +181,7 @@ object frmAtv_54: TfrmAtv_54
       Margins.Right = 2
       Margins.Bottom = 2
       Caption = 'Mulheres:'
+      OnClick = lblTtMulheresClick
     end
     object lblMaiorIdade: TLabel
       Left = 13
@@ -317,5 +319,6 @@ object frmAtv_54: TfrmAtv_54
     Font.Style = []
     ParentFont = False
     TabOrder = 6
+    OnClick = btnLimparDadosClick
   end
 end
