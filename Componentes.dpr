@@ -19,7 +19,9 @@ uses
   UExemplo02 in 'UExemplo02.pas' {frmExemplo02},
   UAtividade26 in 'UAtividade26.pas' {frmAtividade26},
   Ucomponentes in 'Ucomponentes.pas' {frmCadastro},
-  UAtv_54 in 'UAtv_54.pas' {frmAtv_54};
+  UAtv_54 in 'UAtv_54.pas' {frmAtv_54},
+  untAtv_55 in 'D:\cristiano\DES\001-componentes\untAtv_55.pas' {frmAtividade55},
+  UAtividade66 in 'UAtividade66.pas' {frmAtividade66};
 
 {$R *.res}
 
@@ -44,5 +46,7 @@ begin
   Application.CreateForm(TfrmAtividade26, frmAtividade26);
   Application.CreateForm(TfrmCadastro, frmCadastro);
   Application.CreateForm(TfrmAtv_54, frmAtv_54);
+  Application.CreateForm(TfrmAtividade55, frmAtividade55);
+  Application.CreateForm(TfrmAtividade66, frmAtividade66);
   Application.Run;
 end.

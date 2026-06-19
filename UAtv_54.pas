@@ -68,7 +68,7 @@ begin
   idade := StrToInt(edtIdade.Text);
   sexo := rgpSexo.ItemIndex;
 
- // sohLetras := TRegEx.IsMatch(nome, padrao, [roIgnoreCase]);
+
 
   if not sohLetras then
   begin
