@@ -31,10 +31,10 @@ type
     btnLimparDados: TButton;
     procedure btnInserirDadosClick(Sender: TObject);
     procedure btnLimparDadosClick(Sender: TObject);
-    procedure lblTtMulheresClick(Sender: TObject);
-    procedure gpbDadosClick(Sender: TObject);
-    procedure FormCreate(Sender: TObject);
-    procedure mmoRegistrosChange(Sender: TObject);
+  //  procedure lblTtMulheresClick(Sender: TObject);
+  //  procedure gpbDadosClick(Sender: TObject);
+   // procedure FormCreate(Sender: TObject);
+   // procedure mmoRegistrosChange(Sender: TObject);
     procedure FormShow(Sender: TObject);
   private
    { Private declarations }

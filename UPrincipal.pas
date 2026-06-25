@@ -153,7 +153,7 @@ end;
 
 procedure TfrmPrincipal.frmAtividade55Click(Sender: TObject);
 begin
-  frmAtividade55.ShowModal;
+  //frmAtividade55.ShowModal;
 end;
 
 end.

@@ -21,7 +21,7 @@ object frmAtividade66: TfrmAtividade66
   object lblSenha: TLabel
     Left = 24
     Top = 96
-    Width = 108
+    Width = 86
     Height = 45
     Caption = 'Senha'
   end
@@ -29,14 +29,14 @@ object frmAtividade66: TfrmAtividade66
     Left = 160
     Top = 21
     Width = 265
-    Height = 48
+    Height = 53
     TabOrder = 0
   end
   object edtsenha: TEdit
     Left = 160
     Top = 96
     Width = 265
-    Height = 45
+    Height = 53
     TabOrder = 1
   end
   object btnTestelogin: TButton

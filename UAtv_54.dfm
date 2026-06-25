@@ -181,7 +181,6 @@ object frmAtv_54: TfrmAtv_54
       Margins.Right = 2
       Margins.Bottom = 2
       Caption = 'Mulheres:'
-      OnClick = lblTtMulheresClick
     end
     object lblMaiorIdade: TLabel
       Left = 13

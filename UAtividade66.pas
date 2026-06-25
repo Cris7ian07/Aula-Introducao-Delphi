@@ -44,14 +44,15 @@ begin
 begin
     if (SenhaDigitada = Senha_Correta) and (UsuarioDigitado = Usuario_Correto) then
     begin
-   // Application.MessageBox(pChar('Usuario ou senha correto!')','Acesso autorizado',
-    end;
-   // else
+    Application.MessageBox(pChar('Usuario e senha correto!') ,'Acesso autorizado', MB_OK + MB_ICONINFORMATION);
+    end
+    else
     begin
-    // Application.MessageBox(pChar('Usuario ou senha incorreto!')','Não autorizado',
+     Application.MessageBox(pChar('Usuario e senha incorreto!') ,'Não autorizado',  MB_OK +MB_ICONINFORMATION);
 
-//end;
+end;
 
-//end;
+end;
 
-//end.
+end;
+end.

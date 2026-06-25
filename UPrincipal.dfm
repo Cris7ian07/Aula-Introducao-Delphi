@@ -2,7 +2,7 @@ object frmPrincipal: TfrmPrincipal
   Left = 0
   Top = 0
   Caption = 'Exemplo Componentes Aula Delphi'
-  ClientHeight = 267
+  ClientHeight = 294
   ClientWidth = 402
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
