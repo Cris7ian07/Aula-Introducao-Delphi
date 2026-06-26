@@ -48,9 +48,8 @@ begin
     end
     else
     begin
-     Application.MessageBox(pChar('Usuario e senha incorreto!') ,'Não autorizado',  MB_OK +MB_ICONINFORMATION);
-
-end;
+       Application.MessageBox(pChar('Usuario e senha incorreto!') ,'Não autorizado',  MB_OK +MB_ICONINFORMATION);
+    end;
 
 end;
 
